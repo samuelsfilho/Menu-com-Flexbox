@@ -1,0 +1,59 @@
+* {
+  margin: auto;
+  padding: 10px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cabecalho {
+  width: 45;
+  height: 42;
+  top: 45px;
+  left: 44.41px;
+}
+
+body {
+  width: 1421;
+  height: 426;
+  top: -390px;
+  left: 771px;
+  background-color: #ffffff;
+}
+
+.texto {
+  width: 56;
+  height: 18;
+  top: 59px;
+  left: 1013px;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+button {
+  width: 127;
+  height: 39;
+  top: 50px;
+  left: 1249px;
+  border-radius: 10px;
+  background-color: #5bc241;
+  color: #ffffff;
+}
+
+.menu {
+  margin-top: -60px;
+}
+
+.menu ul {
+  display: flex;
+  padding: 10px;
+  float: right;
+}
+
