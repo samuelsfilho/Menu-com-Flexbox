@@ -1,19 +1,31 @@
-* {
-  margin: auto;
-  padding: 10px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 
 .logo-area {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 5px;
+  margin-left: 15px;
 }
 
-.cabecalho {
+img {
   width: 45;
   height: 42;
   top: 45px;
   left: 44.41px;
+}
+
+.logo-area h1 {
+  font-family: Public Sans;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-left: 5px;
+  margin-right: 40px;
 }
 
 body {
@@ -24,36 +36,39 @@ body {
   background-color: #ffffff;
 }
 
-.texto {
-  width: 56;
-  height: 18;
-  top: 59px;
-  left: 1013px;
-  font-family: Public Sans;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  vertical-align: middle;
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
-button {
-  width: 127;
-  height: 39;
-  top: 50px;
-  left: 1249px;
-  border-radius: 10px;
-  background-color: #5bc241;
+.menu .ul {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10px;
+  gap: 50px;
+}
+
+.menu .li {
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+
+.menu .Cadastrar {
+  background-color: rgb(28, 164, 28);
+  font-size: 25px;
   color: #ffffff;
 }
 
-.menu {
-  margin-top: -60px;
+
+
+.menu .li :hover {
+  transition: 0, ease-in-out;
+  background-color: rgb(28, 164, 28) ;
+  color: #ffffff;
 }
 
-.menu ul {
-  display: flex;
-  padding: 10px;
-  float: right;
-}
 

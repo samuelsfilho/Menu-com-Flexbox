@@ -1,0 +1,6 @@
+@media {min-width: 460px;
+    header {
+        flex-direction: column;
+        
+    }
+}
